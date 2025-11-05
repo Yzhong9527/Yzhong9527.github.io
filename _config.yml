@@ -24,13 +24,14 @@ repository               : "Yzhong9527/Yzhong9527.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Yuanshan Zhong"
+  pronouns         : "he/him"
+  bio              : "M.S. in Biomedical Engineering at University at Buffalo. Research in non-invasive BCI (EEG) and reinforcement learning for intelligent neuroprosthetics."
+  location         : "Buffalo, NY"
+  location         : "Buffalo, NY"
+  employer         : "University at Buffalo"
+  uri              : "https://Yzhong9527.github.io"
+  email            : "yzhong9@buffalo.edu" 
 
   # Academic websites
   academia         : # URL
