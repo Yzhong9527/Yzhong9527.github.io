@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yuanshan Zhong"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : "Yuanshan Zhong"
-description              : "Research on EEG signal analysis, neural representation learning, and closed-loop neuromodulation."
-url                      : "academicpages/academicpages.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "Your Name"
+description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -24,18 +24,18 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yuanshan Zhong"
+  name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "MS student and Research Assistant at the University at Buffalo working on neural signal analysis and EEG representation learning. My research aims to identify robust neural features from brain signals and develop computational methods for neural engineering and closed-loop neuromodulation."
-  location         : "Buffalo, NY, USA"
-  employer         : "University at Buffalo, SUNY"
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "Yzhong9@buffalo.edu" 
+  email            : "none@example.org" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=bYqeLC4AAAAJ&scilu=&scisig=AFPfF8cAAAAAae_ActHv-iIRbCqfFYQBo0-UPVQ&gmla=AIqSsVvcygfFj_kl--Ob45HKf30Kg8mjAlAUas1Pi7LiFfpnFVObv93oXl_gSb5LVlrS6bEGN43VEbdWyRAMZNPSXGG1Sg4BKdoK38Xg6yY&sciund=11517971870507227061"
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"
@@ -45,6 +45,7 @@ author:
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
+
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -356,5 +357,7 @@ tag_archive:
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
+  ignore:
+    envs: development
   ignore:
     envs: development
