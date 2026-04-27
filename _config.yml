@@ -13,7 +13,7 @@ title                    : "Yuanshan Zhong"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : "Research on EEG signal analysis, neural representation learning, and closed-loop neuromodulation."
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://github.com/Yzhong9527 # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -27,7 +27,7 @@ author:
   name             : "Yuanshan Zhong"
   pronouns         : # example: "she/her"  
   bio              : "MS student and Research Assistant at the University at Buffalo working on neural signal analysis and EEG representation learning. My research aims to identify robust neural features from brain signals and develop computational methods for neural engineering and closed-loop neuromodulation."
-  location         : "Earth"
+  location         : "Buffalo, NY, USA"
   employer         : "University at Buffalo, SUNY"
   uri              : # URL
   email            : "Yzhong9@buffalo.edu" 
