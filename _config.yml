@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Yuanshan Zhong"
   pronouns         : # example: "she/her"  
-  bio              : "MS student and Research Assistant at the University at Buffalo working on neural signal analysis and EEG representation learning."
+  bio              : "MS student and Research Assistant at the University at Buffalo working on neural signal analysis and EEG representation learning. My research aims to identify robust neural features from brain signals and develop computational methods for neural engineering and closed-loop neuromodulation."
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "University at Buffalo, SUNY"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "Yzhong9@buffalo.edu" 
 
   # Academic websites
   academia         : # URL
