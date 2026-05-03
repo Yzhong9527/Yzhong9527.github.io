@@ -7,20 +7,17 @@ author_profile: true
 
 ## Selected Projects
 
-### Multimodal Neural Signal Analysis for Auditory Disorders
-Multimodal EEG + physiological signal analysis for objective biomarker discovery.  
-[View Details](/portfolio/synapse)
+### [Multimodal Neural Signal Analysis for Auditory Disorders](/portfolio/synapse)
+Multimodal EEG + physiological signal analysis for objective biomarker discovery in sound sensitivity disorders.
+
+### [Hybrid Learning for Closed-Loop Neural Control](/portfolio/closed_loop)
+Robust neural control using representation learning and hybrid learning strategies.
 
 ---
 
-### Hybrid Learning for Closed-Loop Neural Control
-Robust neural control using representation learning and hybrid learning strategies.  
-[View Details](/portfolio/closed_loop)
+## All Projects
 
----
-
-## Other Projects
-
-{% for post in site.portfolio %}
+{% assign sorted = site.portfolio | sort: "order" %}
+{% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
