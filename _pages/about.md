@@ -24,10 +24,10 @@ My research focuses on multimodal neural signal analysis, representation learnin
 
 ## Selected Projects
 
-### Multimodal Neural Signal Analysis for Auditory Disorders
+### [Multimodal Neural Signal Analysis for Auditory Disorders](/portfolio/synapse)
 Multimodal EEG + physiological signal analysis for objective biomarker discovery in sound sensitivity disorders.
 
-### Hybrid Learning for Closed-Loop Neural Control
+### [Hybrid Learning for Closed-Loop Neural Control](/portfolio/closed_loop)
 Building robust neural control systems from noisy EEG signals using representation learning and hybrid learning approaches.
 
 ---
