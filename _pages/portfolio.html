@@ -1,13 +1,35 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: single
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<h2>Selected Projects</h2>
 
+<h3>
+  <a href="/portfolio/synapse">
+    Multimodal Neural Signal Analysis for Auditory Disorders
+  </a>
+</h3>
+<p>
+  Multimodal EEG + physiological signal analysis for objective biomarker discovery in sound sensitivity disorders.
+</p>
 
-{% for post in site.portfolio %}
+<h3>
+  <a href="/portfolio/closed_loop">
+    Hybrid Learning for Closed-Loop Neural Control
+  </a>
+</h3>
+<p>
+  Robust neural control using representation learning and hybrid learning strategies.
+</p>
+
+<hr>
+
+<h2>All Projects</h2>
+
+{% assign sorted = site.portfolio | sort: "order" %}
+{% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
