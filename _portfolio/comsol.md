@@ -1,7 +1,6 @@
 ---
 title: "Modeling and Optimization of Neurostimulation Systems Using Finite-Element Methods"
 order: 3
-start_date: 2025-8-25
 excerpt: "Finite-element modeling and data-driven optimization of electrode configurations for safe and targeted neurostimulation."
 collection: portfolio
 permalink: /portfolio/comsol
