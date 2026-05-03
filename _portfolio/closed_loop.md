@@ -1,7 +1,6 @@
 ---
 title: "Hybrid Learning for Closed-Loop Neural Control"
 order: 2
-start_date: 2025-10-01
 excerpt: "Compact EEG representations for robust closed-loop neural control in BCI systems."
 collection: portfolio
 permalink: /portfolio/closed_loop
