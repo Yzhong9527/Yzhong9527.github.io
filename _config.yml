@@ -24,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Yuanshan Zhong"
   pronouns         : # example: "she/her"  
   bio              : "M.S. student and Research Assistant at University at Buffalo working on multimodal neural signal analysis and brain–computer interfaces."
   location         : "Buffalo, NY, USA"
