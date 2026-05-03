@@ -1,6 +1,6 @@
 ---
 title: "Multimodal Neural Signal Analysis for Auditory Disorders"
-date: 2025-10-31
+start_date: 2025-10-31
 excerpt: "Wearable ear-EEG analysis and representation learning for objective biomarker discovery in sound sensitivity disorders."
 collection: portfolio
 permalink: /portfolio/synapse
