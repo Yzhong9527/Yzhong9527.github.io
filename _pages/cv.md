@@ -94,5 +94,5 @@ Python, MATLAB
 ## Honors & Awards
 
 - National Scholarship (Third Prize), USTC  
-- Third Prize, National High School Physics Competition (China)  
-- First Prize, Provincial Mathematics Competition (China)  
+- Third Prize, Provincial Level Physics Competition (China)
+- First Prize, City-Level Mathematics Competition (China)
