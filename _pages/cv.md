@@ -25,74 +25,103 @@ Sep 2018 – Jun 2023
 
 ## Research Experience
 
-**Research Assistant – Multimodal Neural Signal Analysis**  
-University at Buffalo, Prof. Wenyao Xu  
+### Multimodal Neural Signal Analysis for Auditory Disorders
+**Research Assistant, University at Buffalo | Prof. Wenyao Xu**  
 Oct 2025 – Present  
 
-- Multimodal EEG + physiological signal analysis for auditory disorders (tinnitus, hyperacusis, misophonia)  
-- Neural representation learning (EEGNex, Labram) and embedding analysis (PCA/UMAP)  
-- Cross-subject generalization and biomarker discovery (~0.81 AUC with validation)  
+- Developing neural signal analysis and representation-learning approaches for objective biomarker discovery in auditory disorders using around-ear EEG and physiological recordings.
+- Applying EEG foundation models to identify and interpret disease-related neural representations through layer-wise, frequency, spatial, and temporal analyses.
+- Developing self-supervised pretraining approaches for transferable representations across heterogeneous around-ear EEG datasets.
+
+[Project details](/portfolio/synapse)
 
 ---
 
-**Research Assistant – Neurostimulation Modeling & Optimization**  
-University at Buffalo, Prof. Filip Stefanovic  
+### Electrothermal Modeling of High-Density Electrode Grids
+**University at Buffalo | Prof. Filip Stefanovic**  
 Aug 2025 – Present  
 
-- Finite-element modeling (COMSOL) of neurostimulation systems in multilayer biological tissue  
-- Analysis of stimulation safety (electric field + thermal effects)  
-- Data-driven optimization of high-density electrode arrays using machine learning  
+- Developed coupled electrical–thermal finite-element models in COMSOL Multiphysics to characterize current distribution and tissue heating during transcutaneous neurostimulation.
+- Systematically evaluated electrode geometry, active area, and stimulation parameters across high-density-inspired grid configurations.
+- Performed control and numerical robustness analyses to characterize geometry-dependent electrothermal behavior.
+
+[Project details](/portfolio/comsol)
 
 ---
 
-**Independent Research – Closed-Loop Neural Control**  
-Oct 2025 – Present  
+### AI-Optimized High-Density Electrode Arrays for Selective Muscle Stimulation
+**University at Buffalo | Prof. Filip Stefanovic**  
+Dec 2025 – Present  
 
-- EEG-driven neural control system using hybrid supervised and reinforcement learning  
-- Designed compact neural representations for robust control under noisy conditions  
-- Studied cross-subject generalization and stability in BCI systems  
+- Developing a computational framework combining finite-element modeling, numerical optimization, and machine learning for selective current steering.
+- Constructing independently controlled high-density electrode models with anisotropic muscle conductivity and superposition-based field computation.
+- Developing inverse ML surrogate models for rapid prediction of optimized electrode-current distributions.
+
+[Project details](/portfolio/muscle_stimulation)
 
 ---
 
-## Research Outputs
+### Hybrid Learning for Adaptive Closed-Loop Neural Control
+**Independent Research**  
+Apr 2025 – Present  
 
-**Manuscripts in Preparation**
+- Developed an EEG-driven neural control framework combining supervised decoding, compact neural representations, and reinforcement learning.
+- Evaluated robustness, training stability, and cross-subject generalization under ID/OOD conditions and EEG perturbations.
+- Extending the framework toward adaptive closed-loop control with time-varying neural representations, task states, and feedback-driven policy adaptation.
 
-- Around-ear EEG analysis for neural feature discovery in auditory disorders  
-- Finite-element modeling of electrical stimulation safety with grid electrodes  
-- Optimization of high-density electrode stimulation for selective activation  
-- Hybrid supervised–reinforcement learning for neural control systems  
+[Project details](/portfolio/closed_loop)
+
+---
+
+## Publications & Manuscripts
+
+**Zhong, Y., & Stefanovic, F. (2026).**  
+Comparative electrothermal analysis of single and small-electrode grid configurations for HD-inspired peripheral transcutaneous neurostimulation.  
+*Frontiers in Bioengineering and Biotechnology*. **Accepted.**  
+[Article](https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1904885/abstract)
+
+**Zhong, Y.\*, Das, A.\*, Rivera Rosario, E., Sun, W., & Xu, W. (2026).**  
+From decoding performance to interpretation in EEG foundation-model representations.  
+*Manuscript in preparation.*  
+\*Co-first authors.
+
+**Zhong, Y., & Stefanovic, F. (2026).**  
+AI-optimized high-density electrode arrays for selective muscle stimulation.  
+*Manuscript in preparation.*
 
 ---
 
 ## Research Areas
 
-- Multimodal neuroimaging (EEG, physiological signals)  
-- Neural representation learning  
-- Brain–computer interfaces  
-- Closed-loop neuroengineering systems  
-- Neurostimulation modeling and optimization  
+- Neural signal analysis & representation learning
+- EEG foundation models & self-supervised learning
+- Brain–computer interfaces & neural control
+- Computational neurostimulation & optimization
+- Adaptive closed-loop neural systems
 
 ---
 
 ## Technical Skills
 
 **Neuroengineering**  
-EEG signal processing, ERP analysis, spectral analysis  
+EEG signal processing, neural representation learning & analysis, EEG foundation models, ERP analysis, time-frequency analysis  
 
 **Machine Learning**  
-PyTorch, deep learning, self-supervised learning, reinforcement learning  
+PyTorch, deep learning, self-supervised learning, reinforcement learning, model interpretability  
 
 **Modeling & Simulation**  
-COMSOL Multiphysics, finite-element modeling  
+COMSOL Multiphysics, finite-element modeling, electrothermal modeling, bioelectric field simulation, numerical optimization  
 
 **Programming**  
 Python, MATLAB  
+
+**Scientific Computing & Data Analysis**  
+NumPy, SciPy, scikit-learn, MNE-Python  
 
 ---
 
 ## Honors & Awards
 
-- National Scholarship (Third Prize), USTC  
-- Third Prize, Provincial Level Physics Competition (China)
-- First Prize, City-Level Mathematics Competition (China)
+- National Scholarship (Third Prize), University of Science and Technology of China
+- Third Prize, Provincial Level Physics High School Competition (China)
+- First Prize, City-Level Mathematics High School Competition (China)
