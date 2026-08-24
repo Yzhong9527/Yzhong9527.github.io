@@ -25,16 +25,16 @@ My research focuses on AI-driven neuroengineering spanning neural signal analysi
 ## Selected Projects
 
 ### [Multimodal Neural Signal Analysis for Auditory Disorders](/portfolio/synapse)
-Developing neural signal analysis and representation-learning approaches for objective biomarker discovery in auditory disorders using around-ear EEG, physiological signals, and EEG foundation models.
+Around-ear EEG analysis, foundation-model representations, and self-supervised learning for objective biomarker discovery in auditory disorders.
 
-### [Electrothermal Modeling of High-Density Electrode Grids](/portfolio/electrothermal)
-Computational modeling of current distribution and tissue heating in high-density electrode grids for safe transcutaneous neurostimulation.
+### [Electrothermal Modeling of High-Density Electrode Grids](/portfolio/comsol)
+Finite-element analysis of current distribution and tissue heating for safe transcutaneous neurostimulation with small-electrode grid configurations.
 
-### [AI-Optimized Electrode Arrays for Selective Muscle Stimulation](/portfolio/muscle_stimulation)
-Combining finite-element modeling, numerical optimization, and machine learning to optimize high-density electrode arrays for selective muscle stimulation.
+### [AI-Optimized High-Density Electrode Arrays for Selective Muscle Stimulation](/portfolio/muscle_stimulation)
+Combining finite-element modeling, numerical optimization, and machine learning for selective current steering and targeted muscle stimulation.
 
 ### [Hybrid Learning for Adaptive Closed-Loop Neural Control](/portfolio/closed_loop)
-Developing EEG-driven neural control systems that integrate neural representations, supervised decoding, reinforcement learning, and adaptive closed-loop control.
+EEG-driven neural control integrating compact representations, supervised decoding, reinforcement learning, and adaptive closed-loop control.
 
 ---
 
