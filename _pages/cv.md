@@ -77,8 +77,8 @@ Apr 2025 – Present
 
 **Zhong, Y., & Stefanovic, F. (2026).**  
 Comparative electrothermal analysis of single and small-electrode grid configurations for HD-inspired peripheral transcutaneous neurostimulation.  
-*Frontiers in Bioengineering and Biotechnology*. **Accepted.**  
-[Article](https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1904885/abstract)
+*Frontiers in Bioengineering and Biotechnology*.  
+[Published Article](https://doi.org/10.3389/fbioe.2026.1904885)
 
 **Zhong, Y.\*, Das, A.\*, Rivera Rosario, E., Sun, W., & Xu, W. (2026).**  
 From decoding performance to interpretation in EEG foundation-model representations.  
