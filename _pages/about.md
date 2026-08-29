@@ -46,7 +46,3 @@ EEG-driven neural control integrating compact representations, supervised decodi
 Email: yzhong9@buffalo.edu  
 [CV (PDF)](/files/CV.pdf)
 
-## Contact
-
-Email: yzhong9@buffalo.edu  
-[CV (PDF)](/files/CV.pdf)
