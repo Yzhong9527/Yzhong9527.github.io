@@ -81,7 +81,9 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  inpreparation:
+    title: 'Manuscripts in Preparation'
   conferences:
     title: 'Conference Papers'
 
