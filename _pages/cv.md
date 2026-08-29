@@ -93,11 +93,15 @@ AI-optimized high-density electrode arrays for selective muscle stimulation.
 
 ## Research Areas
 
-- Neural signal analysis & representation learning
+## Research Areas
+
+- Neural signal analysis & representation learnin
+- Neural population dynamics & computational modeling
 - EEG foundation models & self-supervised learning
 - Brain–computer interfaces & neural control
-- Computational neurostimulation & optimization
+- Biophysical modeling, computational neurostimulation & optimization
 - Adaptive closed-loop neural systems
+
 
 ---
 
