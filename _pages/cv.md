@@ -82,7 +82,7 @@ Comparative electrothermal analysis of single and small-electrode grid configura
 
 **Zhong, Y.\*, Das, A.\*, Rivera Rosario, E., Sun, W., & Xu, W. (2026).**  
 From decoding performance to interpretation in EEG foundation-model representations.  
-*Manuscript in preparation.*  
+*Manuscript in preparation.*  (submission planned for September 2026).
 \*Co-first authors.
 
 **Zhong, Y., & Stefanovic, F. (2026).**  
