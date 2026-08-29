@@ -1,7 +1,7 @@
 ---
 title: "From Decoding Performance to Interpretation in EEG Foundation-Model Representations"
 collection: publications
-category: manuscripts
+category: inpreparation
 permalink: /publication/2026-eeg-foundation-model
 excerpt: "A systematic investigation of decoding validity, representation interpretation, subject identity, generalization, and cohort sensitivity in EEG foundation-model representations."
 date: 2026-09-01
