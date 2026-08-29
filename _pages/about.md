@@ -8,7 +8,9 @@ Hi, I’m Yuanshan Zhong.
 
 I am an M.S. student in Biomedical Engineering at the University at Buffalo, working as a Research Assistant in Prof. Wenyao Xu’s lab. I also conduct research on computational neurostimulation in collaboration with Prof. Filip Stefanovic’s lab.
 
-My research focuses on AI-driven neuroengineering spanning neural signal analysis, representation learning, brain–computer interfaces, and computational neurostimulation. I am particularly interested in understanding how neural representations can be extracted, interpreted, and translated into robust control strategies for adaptive closed-loop neural systems. My work combines EEG foundation models, machine learning, finite-element modeling, and computational optimization to study neural sensing, decoding, control, and stimulation.
+My research focuses on AI-driven neuroengineering spanning neural signal analysis, representation learning, brain–computer interfaces, and computational neurostimulation. I am particularly interested in understanding not only how neural signals can be decoded, but also what underlying neural activity gives rise to these representations and how that knowledge can be translated into adaptive closed-loop systems.
+
+My current work combines EEG foundation models, machine learning, finite-element modeling, and computational optimization to study neural sensing, decoding, control, and stimulation. Moving forward, I hope to investigate neural signals at finer spatial and physiological scales, including invasive electrophysiological recordings and neural population activity, to better understand how information is represented and transformed across neurons, circuits, and behavior. Ultimately, I am interested in connecting this deeper mechanistic understanding with robust decoding and adaptive neural control.
 
 ---
 
