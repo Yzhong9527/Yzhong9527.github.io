@@ -17,10 +17,11 @@ My current work combines EEG foundation models, machine learning, finite-element
 ## Research Interests
 
 - Neural signal analysis & representation learning
-- EEG foundation models & self-supervised learning
-- Brain–computer interfaces & neural control
-- Computational neurostimulation & optimization
-- Adaptive closed-loop neural systems
+- Neural population dynamics & computational modeling
+- Neural interfaces & high-resolution electrophysiology
+- Brain–computer interfaces & adaptive neural control
+- Computational neurostimulation & biophysical modeling
+- Closed-loop neural systems
 
 ---
 
