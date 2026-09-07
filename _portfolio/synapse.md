@@ -1,5 +1,5 @@
 ---
-title: "Distinct Auditory-Condition Signatures in Foundation-Model Representations of Around-Ear EEG (formerly: Multimodal Neural Signal Analysis for Auditory Disorders)"
+title: "Multimodal Neural Signal Analysis for Auditory Disorders (Ongoing and Continuously Updated)"
 order: 1
 excerpt: "Around-ear EEG analysis, foundation-model representations, rigorous decoding validation, and self-supervised learning for wearable neurotechnology."
 collection: portfolio
