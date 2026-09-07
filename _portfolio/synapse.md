@@ -1,5 +1,5 @@
 ---
-title: "Multimodal Neural Signal Analysis for Auditory Disorders"
+title: "Distinct Auditory-Condition Signatures in Foundation-Model Representations of Around-Ear EEG (formerly: Multimodal Neural Signal Analysis for Auditory Disorders)"
 order: 1
 excerpt: "Around-ear EEG analysis, foundation-model representations, rigorous decoding validation, and self-supervised learning for wearable neurotechnology."
 collection: portfolio
@@ -198,3 +198,59 @@ The long-term goal is to learn transferable around-ear EEG representations that 
 This project has progressed from **conventional EEG signal analysis**, through **foundation-model representation learning and interpretation**, toward a broader investigation of **what information supports neural decoding, how robust that information is, and under what conditions it generalizes**.
 
 The experience has also motivated my interest in studying neural representations at finer spatial and physiological scales, including higher-resolution electrophysiological recordings and neural population activity. I am particularly interested in understanding how neural information is represented and transformed across neurons, circuits, and behavior, and how this understanding can ultimately support robust decoding and adaptive closed-loop neural systems.
+
+---
+
+## Latest Results: Building the Evidence Step by Step
+
+The latest study uses a fixed cohort of 43 participants (28 with experimental auditory conditions and 15 controls) and four tasks spanning auditory and visual-control conditions. Rather than presenting the strongest decoding score in isolation, I organized the analysis as a sequence of increasingly demanding questions: **Where is the signal? Does it survive broad statistical correction? Could it be explained by nuisance variables or implementation choices? Does it depend on the pretrained representation? Is the same pattern visible in conventional features or models trained from scratch?**
+
+### 1. Locating the overall auditory-condition signal
+
+The initial 24-configuration family did not yield a result that survived family-wise correction. Expanding the analysis to post-stimulus windows identified a reproducible overall auditory-condition decoding site in the HLT task from **2 to 6 seconds after stimulus onset**. A frozen LaBraM representation with an LDA readout achieved a subject-level AUC of **0.869** (family-wise \(p=0.008\)).
+
+A separate dense temporal scan of 89 configurations localized the strongest short interval to **[4,5] seconds** (AUC = **0.874**, family-wise \(p=0.026\)); the **[3,5]-second** interval also survived correction (AUC = **0.860**, family-wise \(p=0.044\)). Finally, the principal post4/HLT result remained significant in a broader **111-configuration campaign-wide max-T audit** (global \(p=0.022\)). The 89- and 111-configuration analyses were treated as separate statistical families.
+
+### 2. Testing alternative explanations
+
+I then stress-tested the post4/HLT result against potential nuisance and protocol effects:
+
+- **Unequal HLT trial counts:** repeatedly fixing the number of trials produced a median AUC of **0.833**.
+- **Age and channel availability:** fold-wise age residualization yielded an AUC of **0.786**, while joint age and usable-channel residualization yielded **0.750**.
+- **Sex composition:** the female-only AUC was **0.948**, and a sex-stratified permutation test gave \(p=0.0002\).
+- **Filtering choices:** a high-pass-equivalent pipeline yielded an AUC of **0.862**, with participant scores closely matching the reference pipeline (\(r=0.934\)).
+- **Phase structure:** phase-randomized surrogate inputs reduced performance to a mean AUC of **0.620**.
+- **Pretraining dependence:** randomly initialized LaBraM encoders produced near-chance results (mean AUC = **0.506**, maximum = **0.514**).
+- **Task specificity:** no PMT visual-control configuration survived the corresponding post-stimulus family correction.
+
+Component analyses further showed that the overall-condition information was not attributable to a single ear, second, or conventional frequency band. Performance was reduced most strongly when beta or gamma activity was removed, but these ablations were treated as characterization rather than independent significance tests.
+
+### 3. Comparing representations and learning approaches
+
+The same analysis was repeated with alternative representations and learning strategies. The overall-condition effect did **not** reproduce with the tested BIOT families, and targeted tests at the winning site yielded AUCs of **0.612** for CBraMod and **0.467** for SignalJEPA. Thus, the observed effect was **LaBraM-specific among the pretrained encoders tested**, rather than a generic property of every EEG foundation model.
+
+Conventional spectral summaries also did not recover the effect. At post4/HLT, spectral logistic regression achieved an AUC of **0.521**, compared with **0.869** for frozen LaBraM probing; the paired AUC difference was **0.348** (95% CI: **0.183–0.527**). Across 168 univariate spectral tests, none passed Benjamini–Hochberg correction.
+
+End-to-end networks trained from scratch—including EEGNet, ShallowFBCSPNet, Deep4Net, and EEGConformer—reached approximately **0.63** at best under subject-independent evaluation and remained below the frozen LaBraM result. Random trial splits produced inflated estimates and were retained only as a leakage demonstration.
+
+### 4. Separating overall status from condition-specific signatures
+
+The analysis then moved beyond the overall experimental-versus-control contrast. Each participant's trial embeddings were converted into a single cross-validated stimulus-differentiation score, allowing condition effects to be tested without treating trials as independent participants.
+
+For **hyperacusis (HQ)**, differentiation between 3-dB and 40-dB HLT trials during **[0,2] seconds** distinguished HQ-positive from HQ-negative participants within the experimental group (\(n=28\), AUC = **0.864**, absolute \(z=2.84\), six-test family-wise \(p=0.022\)). The result remained stable across independent random-number streams, leave-one-participant-out checks, repeated five-trial subsampling, and an analysis restricted to participants with hearing loss. The same HQ effect was not reproduced with BIOT embeddings.
+
+For **hearing loss (HL)**, five-trial representation blocks from post4/HLT yielded a full-cohort subject-level AUC of **0.819** (12-test family-wise \(p=0.036\)) and an EXP-only AUC of **0.828** (family-wise \(p=0.032\)). Tinnitus and HQ labels did not survive correction in this block-level family. Linear participant identity was explicitly measured and erased as an implementation control, while label-orthogonalized identity removal was used to assess whether label information persisted beyond unrelated subject-specific variation.
+
+### 5. Validating interpretation methods
+
+I also tested whether attribution maps genuinely reflected the trained decision function. Gradient-based maps remained highly similar after model and label randomization, so they did not meet the prespecified validity criterion and were not interpreted mechanistically. Occlusion profiles passed the randomization-similarity check, but no individual channel or one-second segment exceeded the corrected 20-element threshold. The largest temporal change occurred for **[3,4] seconds** (\(\Delta\mathrm{AUC}=0.202\)), below the family-wise threshold of 0.286.
+
+## Current Conclusions
+
+- **Overall auditory-condition status:** the strongest reproducible signal occurred in HLT after stimulus presentation, particularly within **[3,5] seconds** and the broader **[2,6]-second** window.
+- **Hyperacusis:** HQ was associated with a within-person intensity-differentiation signature during the **[0,2]-second** tone interval, rather than with a direct high-dimensional HQ classifier.
+- **Hearing loss:** HL information was detectable from post-stimulus HLT representation blocks after scores were aggregated to the participant level.
+- **Representation dependence:** among the tested approaches, the principal overall-condition and HQ results depended on pretrained LaBraM representations. They were not recovered by conventional spectral features, the tested alternative foundation encoders, randomly initialized encoders, or end-to-end models trained from scratch.
+- **Validation:** the principal findings were evaluated with subject-level cross-validation, family-wise and campaign-wide permutation correction, nuisance residualization, protocol-matched subsampling, negative controls, representation randomization, and independent computational reruns.
+
+Together, these results support **distinct representation-level signatures for overall auditory-condition status, hyperacusis-related intensity differentiation, and hearing loss**, while also defining the limits of their current physiological and cross-model interpretation.
