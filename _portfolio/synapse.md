@@ -22,26 +22,6 @@ Across these stages, a central question has increasingly shaped my work:
 
 ---
 
-## EEG Analysis and Machine Learning
-
-My initial work focused on establishing an EEG analysis pipeline for characterizing disorder-related neural patterns.
-
-This included:
-
-- signal preprocessing and quality control;
-- ERP and spectral feature extraction;
-- cross-channel synchronization analysis;
-- statistical testing and conventional machine learning; and
-- deep-learning architectures including EEGNet and EEGNeX.
-
-These analyses provided a conventional signal-processing and machine-learning baseline for studying neural responses across auditory tasks and disorder groups.
-
-![ERP and neural feature analysis](/images/synapse_erp.png)
-
-This stage also provided the foundation for asking whether pretrained neural representations could capture information beyond conventional EEG features.
-
----
-
 ## Latest Results: Building the Evidence Step by Step
 
 The latest study uses a fixed cohort of 43 participants (28 with experimental auditory conditions and 15 controls) and four tasks spanning auditory and visual-control conditions. Rather than presenting the strongest decoding score in isolation, I organized the analysis as a sequence of increasingly demanding questions: **Where is the signal? Does it survive broad statistical correction? Could it be explained by nuisance variables or implementation choices? Does it depend on the pretrained representation? Is the same pattern visible in conventional features or models trained from scratch?**
@@ -95,6 +75,26 @@ I also tested whether attribution maps genuinely reflected the trained decision 
 - **Validation:** the principal findings were evaluated with subject-level cross-validation, family-wise and campaign-wide permutation correction, nuisance residualization, protocol-matched subsampling, negative controls, representation randomization, and independent computational reruns.
 
 Together, these results support **distinct representation-level signatures for overall auditory-condition status, hyperacusis-related intensity differentiation, and hearing loss**, while also defining the limits of their current physiological and cross-model interpretation.
+
+---
+
+## EEG Analysis and Machine Learning
+
+My initial work focused on establishing an EEG analysis pipeline for characterizing disorder-related neural patterns.
+
+This included:
+
+- signal preprocessing and quality control;
+- ERP and spectral feature extraction;
+- cross-channel synchronization analysis;
+- statistical testing and conventional machine learning; and
+- deep-learning architectures including EEGNet and EEGNeX.
+
+These analyses provided a conventional signal-processing and machine-learning baseline for studying neural responses across auditory tasks and disorder groups.
+
+![ERP and neural feature analysis](/images/synapse_erp.png)
+
+This stage also provided the foundation for asking whether pretrained neural representations could capture information beyond conventional EEG features.
 
 ---
 
