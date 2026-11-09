@@ -49,7 +49,7 @@
     {% if post.collection == 'publications' %}
 
       {% if post.category == 'inpreparation' %}
-        <p><i>Manuscript in preparation — submission planned for early September 2026.</i></p>
+        <p><i>{{ post.venue }}</i></p>
       {% else %}
         <p>
           Published in <i>{{ post.venue }}</i>,
