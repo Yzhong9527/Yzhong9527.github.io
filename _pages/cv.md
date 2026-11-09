@@ -81,9 +81,13 @@ Comparative electrothermal analysis of single and small-electrode grid configura
 [Published Article](https://doi.org/10.3389/fbioe.2026.1904885)
 
 **Zhong, Y.\*, Das, A.\*, Rivera Rosario, E., Sun, W., & Xu, W. (2026).**  
-From decoding performance to interpretation in EEG foundation-model representations.  
-*Manuscript in preparation.*  (submission planned for September 2026).
+Distinct Auditory-Condition Signatures in Foundation-Model Representations of Around-Ear EEG.  
+*Manuscript being prepared for submission to the Journal of Neural Engineering.*  
 \*Co-first authors.
+
+**Das, A., Rivera Rosario, E., Zhong, Y., Bo, W., Gherardi, A., Sun, W., & Xu, W. (2026).**  
+Wearable ear-EEG can record brain activity during auditory tasks in hyperacusis.  
+*Scientific Reports*. **Accepted for publication.**
 
 **Zhong, Y., & Stefanovic, F. (2026).**  
 AI-optimized high-density electrode arrays for selective muscle stimulation.  
