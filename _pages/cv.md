@@ -81,7 +81,7 @@ Comparative electrothermal analysis of single and small-electrode grid configura
 [Published Article](https://doi.org/10.3389/fbioe.2026.1904885)
 
 **Zhong, Y.\*, Das, A.\*, Rivera Rosario, E., Sun, W., & Xu, W. (2026).**  
-Distinct Auditory-Condition Signatures in Foundation-Model Representations of Around-Ear EEG.  
+Pretrained EEG representations for auditory-condition assessment using around-ear EEG. 
 *Manuscript being prepared for submission to the Journal of Neural Engineering.*  
 \*Co-first authors.
 
