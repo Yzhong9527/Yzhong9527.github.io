@@ -1,6 +1,6 @@
 ---
 title: >-
-  Distinct Auditory-Condition Signatures in Foundation-Model
+  Pretrained EEG representations for auditory-condition assessment using around-ear EEG
   Representations of Around-Ear EEG
   (formerly: From Decoding Performance to Interpretation in EEG
   Foundation-Model Representations)
