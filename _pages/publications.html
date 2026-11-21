@@ -8,13 +8,12 @@ author_profile: true
 {% if site.author.googlescholar %}
   <div class="wordwrap">
     You can also find my articles on
-    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+    <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
   </div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- Automatically render existing publication entries -->
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
@@ -29,38 +28,43 @@ author_profile: true
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+
+    {% if category[0] == 'manuscripts' %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2>
+        <hr />
+      {% endunless %}
+
+      <div class="list__item">
+        <article class="archive__item">
+          <h2 class="archive__item-title">
+            <a href="https://doi.org/10.1038/s41598-026-80432-1">
+              Wearable ear-EEG can record brain activity during auditory tasks in hyperacusis
+            </a>
+          </h2>
+
+          <p class="archive__item-excerpt">
+            A study of wearable around-ear EEG for recording brain activity
+            during auditory tasks in individuals with hyperacusis.
+          </p>
+
+          <p>
+            Recommended citation: Das, A., Rivera Rosario, E.,
+            <strong>Zhong, Y.</strong>, Bo, W., Gherardi, A., Sun, W.,
+            &amp; Xu, W. (2026). Wearable ear-EEG can record brain activity
+            during auditory tasks in hyperacusis. <i>Scientific Reports</i>.
+            Published online November 20, 2026.<br />
+            DOI: <a href="https://doi.org/10.1038/s41598-026-80432-1">10.1038/s41598-026-80432-1</a>
+          </p>
+        </article>
+      </div>
+    {% endif %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-<h2>Accepted Articles</h2>
-<hr />
-
-<div class="list__item">
-  <article class="archive__item">
-    <h2 class="archive__item-title">
-      Wearable ear-EEG can record brain activity during auditory tasks in hyperacusis
-    </h2>
-
-    <p>
-      Das, A., Rivera Rosario, E., <strong>Zhong, Y.</strong>,
-      Bo, W., Gherardi, A., Sun, W., &amp; Xu, W. (2026).
-    </p>
-
-    <p>
-      <i>Scientific Reports</i>.
-      <strong>Accepted for publication.</strong>
-    </p>
-
-    <p class="archive__item-excerpt">
-      A study of wearable around-ear EEG for recording brain activity
-      during auditory tasks in individuals with hyperacusis.
-    </p>
-  </article>
-</div>
 
 
 
