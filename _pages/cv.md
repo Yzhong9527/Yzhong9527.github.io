@@ -77,17 +77,18 @@ Apr 2025 – Present
 
 **Zhong, Y., & Stefanovic, F. (2026).**  
 Comparative electrothermal analysis of single and small-electrode grid configurations for HD-inspired peripheral transcutaneous neurostimulation.  
-*Frontiers in Bioengineering and Biotechnology*.  
+*Frontiers in Bioengineering and Biotechnology, 14*, 1904885. PMID: 42729336.  
 [Published Article](https://doi.org/10.3389/fbioe.2026.1904885)
+
+**Das, A., Rivera Rosario, E., Zhong, Y., Bo, W., Gherardi, A., Sun, W., & Xu, W. (2026).**  
+Wearable ear-EEG can record brain activity during auditory tasks in hyperacusis.  
+*Scientific Reports*. Published online November 20, 2026.  
+[Published Article](https://doi.org/10.1038/s41598-026-80432-1)
 
 **Zhong, Y.\*, Das, A.\*, Rivera Rosario, E., Sun, W., & Xu, W. (2026).**  
 Pretrained EEG representations for auditory-condition assessment using around-ear EEG. 
 *Manuscript being prepared for submission to the Journal of Neural Engineering.*  
 \*Co-first authors.
-
-**Das, A., Rivera Rosario, E., Zhong, Y., Bo, W., Gherardi, A., Sun, W., & Xu, W. (2026).**  
-Wearable ear-EEG can record brain activity during auditory tasks in hyperacusis.  
-*Scientific Reports*. **Accepted for publication.**
 
 **Zhong, Y., & Stefanovic, F. (2026).**  
 AI-optimized high-density electrode arrays for selective muscle stimulation.  
